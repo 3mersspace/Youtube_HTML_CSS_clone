@@ -25,3 +25,4 @@ Just open the `index.html` file in your browser.
 
 ## 📚 Notes
 This is a static project (no JavaScript or backend functionality).
+⚠️ Note: This project is not yet responsive (mobile-friendly).
