@@ -1,0 +1,103 @@
+.all {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+
+
+.thumbnail-cont{
+    position: relative;
+    
+}
+
+
+.big-pic {
+    width: 100%;
+}
+
+.absolute{
+    font-family: 'Roboto';
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 14px;
+    right: 6px;
+    font-size: 18px;
+    padding: 6px;
+    font-weight: 500;
+    z-index: 1;
+    border-radius: 4px;
+    margin: 0%;
+}
+
+
+.smpic-text {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.ch1-pic {
+    border-radius: 50px;
+    
+    width: 50px;
+    
+    height: 50px;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+
+
+
+
+.text {
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.p1 {
+    font-weight: 500;
+    font-size: 17px;
+    
+    line-height: 20px;
+    
+    width: 300px;
+    margin-top: 0px;
+    
+    margin-bottom: 12px;
+    
+}
+
+.p2,
+.p3 {
+    color: #606060;
+}
+
+.p2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.p3 {
+    margin-top: 0px;
+    
+    
+}
+
+    @media(max-width:1300px)
+    {
+        .all{
+              grid-template-columns: 1fr 1fr ;
+        }
+    }
+
+    @media(min-width:1400)
+    {
+        .all{
+              grid-template-columns: 1fr 1fr 1fr 1fr ;
+        }
+    }

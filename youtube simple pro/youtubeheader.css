@@ -1,0 +1,179 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    margin-bottom: 30px;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top:0px;
+    border-bottom:1px solid rgb(222, 222, 222);
+    z-index: 2;
+}
+
+.left {
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+.menu {
+    height: 35px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.youtube-logo {
+    height: 30px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.middel {
+    display: flex;
+    flex: 1;
+    max-width: 800px;
+    align-items: center;
+
+}
+
+.search-bar {
+    flex: 1;
+
+    height: 58px;
+    padding-left: 15px;
+    border: 1px solid rgb(204, 204, 204);
+    margin-right: 0px;
+    margin-left: 93px;
+    border-radius: 3px 0px 0px 3px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: rgb(145, 137, 137);
+}
+
+
+.ser-button {
+    margin: 0px;
+    height: 61px;
+    width: 103px;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: #F8F8F8;
+    border-radius: 0px 3px 3px 0px;
+    border-left: none;
+    cursor: pointer;
+   
+}
+.ser-button , .voice-search-icon , .upload-icon , .youyube-apps , .thum-not{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ position: relative;
+
+}
+    .ser-button .tooltip , .voice-search-icon .tooltip , .upload-icon .tooltip , .youyube-apps .tooltip , .thum-not .tooltip{
+        font-family: 'Roboto';
+        position: absolute;
+        background-color: rgba(97, 95, 95, 0.916);
+        padding: 13px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        color: white;
+        font-size: 19px;
+        border-radius: 3px;
+        bottom: -94px;
+        opacity: 0;
+        transition: opacity 0.15s;
+        pointer-events: none;
+        white-space: nowrap;
+        
+    }
+.ser-button:hover .tooltip , .voice-search-icon:hover .tooltip , .upload-icon:hover .tooltip , .youyube-apps:hover .tooltip ,  .thum-not:hover .tooltip{
+    opacity: 1;
+}
+.ser-img {
+    width: 37px;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.ser-button:hover {
+    background-color: #f1eeee;
+
+}
+
+.voice-search-icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: none;
+    background-color: #F8F8F8;
+    margin-left: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.voice-img {
+    width: 37px;
+}
+
+.right {
+    margin-left: 35px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    gap: 36px;
+    flex-shrink: 0;
+}
+
+.upload {
+
+    width: 37px;
+    cursor: pointer;
+}
+
+.apps {
+
+    width: 37px;
+    cursor: pointer;
+}
+.thum-not{
+    position: relative;
+     cursor: pointer;
+}
+.not3{
+    position: absolute;
+    background-color: rgb(215, 1, 1);
+    color:white;
+    border:2px solid white;
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+     line-height: 23px;
+    text-align: center;
+    margin: 0px;
+     top: -1px;
+    right: -7px;
+}
+
+.not {
+
+    width: 37px;
+    cursor: pointer;
+}
+
+.logo {
+
+    width: 50px;
+    cursor: pointer;
+}
